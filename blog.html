@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General reset for consistency across browsers */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and general page styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Main container styling for consistent page layout */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Styling for headings */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Header and Navbar styling */
+        header {
+            background-color: #333;
+            padding: 20px 0;
+        }
+
+        .navbar {
+            text-align: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #ff6347;
+            /* Tomato color on hover */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Blog Section (Main content) styling */
+        section.blog {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .blog h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .blog p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        /* Blog Post List styling (optional) */
+        .blog-posts {
+            margin-top: 30px;
+        }
+
+        .blog-post-item {
+            background-color: #f8f8f8;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post-item h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .blog-post-item p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .blog-post-item a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .blog-post-item a:hover {
+            background-color: #ff6347;
+            /* Tomato color */
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            .navbar ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .navbar ul li a {
+                font-size: 1.2rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+
+            .blog h2 {
+                font-size: 1.8rem;
+            }
+
+            .blog-post-item h3 {
+                font-size: 1.5rem;
+            }
+
+            .blog-post-item p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">My Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1>My Blog</h1>
+        <p>This is the Blog page.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ashish Verma. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
